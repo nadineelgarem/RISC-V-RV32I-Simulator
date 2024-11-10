@@ -1,0 +1,3 @@
+ADDI 1 0 10      # Set register x1 to 10
+ADDI 2 1 5       # Set register x2 to x1 + 5 (15)
+ADDI 3 2 -3      # Set register x3 to x2 - 3 (12)

@@ -1,0 +1,2 @@
+1000 15          # Memory address 1000 contains 15
+1004 25          # Memory address 1004 contains 25

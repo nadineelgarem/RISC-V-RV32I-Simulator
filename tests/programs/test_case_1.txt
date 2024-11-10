@@ -1,0 +1,6 @@
+ADDI 1 0 10      # Set register x1 to 10
+ADDI 2 0 20      # Set register x2 to 20
+ADD 3 1 2        # Add x1 and x2, store result in x3
+SUB 4 2 1        # Subtract x1 from x2, store result in x4
+AND 5 1 2        # Logical AND of x1 and x2, store in x5
+OR 6 1 2         # Logical OR of x1 and x2, store in x6

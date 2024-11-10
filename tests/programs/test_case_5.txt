@@ -1,0 +1,4 @@
+ADDI 1 0 4       # Set x1 to 4
+JAL 5 8          # Jump forward by 8 and save return address in x5
+ADDI 2 0 10      # This should be skipped
+ADDI 3 0 20      # This should be executed after jump

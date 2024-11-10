@@ -1,0 +1,5 @@
+ADDI 1 0 1000    # Set register x1 to 1000 (base address)
+LW 2 0 1         # Load word from memory[1000] into x2 (should load 50)
+ADDI 3 1 4       # Set register x3 to 1004 (another address)
+LW 4 0 3         # Load word from memory[1004] into x4 (should load 100)
+SW 2 8 1         # Store value of x2 into memory[1008]

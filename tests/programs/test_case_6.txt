@@ -1,0 +1,5 @@
+ADDI 1 0 1000    # x1 = 1000 (base address)
+LW 2 0 1         # Load from memory[1000] to x2 (15)
+LW 3 4 1         # Load from memory[1004] to x3 (25)
+ADDI 4 2 10      # x4 = x2 + 10 (25)
+SW 4 8 1         # Store x4 (25) at memory[1008]
